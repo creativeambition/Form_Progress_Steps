@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <img src="./assets/gradient.png" alt="bg-img" class="bg-img" /> -->
+
+    <header>
+      <div class="logo"></div>
+      <h3>INFINITYSTUDIOS</h3>
+      <span>Signup</span>
+    </header>
+
+    <form>
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+
+      <div class="field">
+        <box-icon name="user"></box-icon>
+
+        <div class="input-field">
+          <input type="text" id="username" required />
+          <label for="username">username</label>
+        </div>
+      </div>
+      <div class="field">
+        <box-icon name="envelope"></box-icon>
+
+        <div class="input-field">
+          <input type="email" id="email" required />
+          <label for="email">email</label>
+        </div>
+      </div>
+      <div class="field">
+        <box-icon name="lock"></box-icon>
+
+        <div class="input-field">
+          <input type="password" id="password" required />
+          <label for="password">password</label>
+        </div>
+      </div>
+
+      <button>
+        <span>Signup</span>
+      </button>
+    </form>
+
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
